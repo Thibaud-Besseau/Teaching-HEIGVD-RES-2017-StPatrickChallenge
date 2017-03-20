@@ -13,7 +13,6 @@ public class Application {
     return processorsFactory;
   }
 
-  IStreamDecoratorController getStreamDecoratorController() {
-    return null;
-  }
+  //devrait retourner un decorateur mais pas le temps
+  public IStreamDecoratorController getStreamDecoratorController() {return null;}
 }
